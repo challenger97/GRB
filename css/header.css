@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: #b2040e;
+}
+.header .titleText {
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+}
+.header .titleText .titleBig {
+  color: #fff;
+  font-family: 楷体;
+  text-shadow: 0 0 0.01rem rgba(94, 255, 216, 0.8);
+  font-size: 0.52rem;
+}
+.header .titleText .titleSmall {
+  color: #fff;
+  font-family: 楷体;
+  text-shadow: 0 0 0.01rem rgba(94, 255, 216, 0.8);
+  font-size: 0.24rem;
+}
+.navList {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  line-height: 0.24rem;
+}
+.navList li {
+  padding: 0.1rem 0.16rem;
+}
+.navList a {
+  font-size: 0.16rem;
+  color: #fff;
+}
+.navList li:hover {
+  background-color: #b2040e;
+}
+.navListWarp {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}

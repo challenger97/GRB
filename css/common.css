@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-size: 100px;
+    font-family: '微软雅黑', '苹方', '思源黑体';
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*效果图750px*/
+
+@media(max-width:640px) {
+    html {
+        font-size: 85.33px;
+    }
+}
+
+
+/*Android常用宽度*/
+
+@media(max-width:540px) {
+    html {
+        font-size: 72px;
+    }
+}
+
+
+/*Android常用宽度*/
+
+@media(max-width:480px) {
+    html {
+        font-size: 64px;
+    }
+}
+
+
+/*Android常用宽度*/
+
+@media(max-width:445px) {
+    html {
+        font-size: 60px;
+    }
+}
+
+@media(max-width:414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+
+
+/*i6Plus,i7Plus宽度*/
+
+@media(max-width:375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+
+/*i6,i7宽度*/
+
+@media(max-width:360px) {
+    html {
+        font-size: 48px;
+    }
+}
+
+
+/*Android常用宽度*/
+
+@media(max-width:320px) {
+    html {
+        font-size: 42.67px;
+    }
+}
+
+
+/*i5宽度*/

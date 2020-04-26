@@ -1,0 +1,20 @@
+[{
+    "text": "首页",
+    "src": "../",
+    "htmlName": "index.html",
+    "icon": ""
+}, {
+    "text": "快讯",
+    "src": "../static/",
+    "htmlName": "info.html",
+    "icon": ""
+}, {
+    "text": "文章详情",
+    "src": "../static/",
+    "htmlName": "article.html"
+
+}, {
+    "text": "城市",
+    "src": "../static/",
+    "htmlName": "city.html"
+}]

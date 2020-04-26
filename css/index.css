@@ -1,0 +1,373 @@
+@media screen and (max-width: 769px) {
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        min-width: auto !important;
+        margin: 0 auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .content {
+        width: 100%;
+        max-width: 100% !important;
+    }
+    .banner {
+        width: 100% !important;
+        min-width: auto !important;
+    }
+    .banner .swiper-container {
+        width: 100% !important;
+        min-width: auto !important;
+    }
+    .banner img {
+        width: 100% !important;
+        min-width: auto !important;
+    }
+    .contentRight {
+        display: none;
+    }
+    .contentLeft {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .navListWarp {
+        display: none;
+    }
+    .navList {
+        flex-direction: column;
+    }
+    .navList li {
+        width: 100%;
+        padding: 0 !important;
+        line-height: 1rem;
+        text-align: left;
+        text-indent: 2em;
+    }
+    .listBtn {
+        display: block !important;
+        position: fixed;
+        top: 0.34rem;
+        left: 0.2rem;
+        padding: 0.05rem;
+        color: #000;
+    }
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    min-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.14rem;
+    position: relative;
+    background-color: #eee;
+    padding-bottom: 1rem;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.listBtn {
+    display: none;
+}
+
+.title {
+    max-width: 1280px;
+    width: 100%;
+    height: 0.4rem;
+    margin: 0 auto 0.1rem auto;
+    background-color: #fff;
+    line-height: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.title span {
+    width: 0.16rem;
+    height: 0.18rem;
+    margin: 0 0.04rem;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAChSURBVDhPzY87DgIxDERzCk7AYVYg0bEFNeIEVFQ0WyFRUMJlsRO/yES26BAjPXkyGe+n/LVWNkddhFezuXZCVNra1Lv0IYuQFXzW/cPBIiD9bNVdINf5xGQg9XOzPd8I1VOOQCeBs8+rpxyBjgJnn1dPOQKpPzTb80monnIEutq8CeRjp4uL6NJn4TI6C1FhbzN7wYfWNkfp73xd/pVKeQOxMDW+ZxY/CgAAAABJRU5ErkJggg==);
+}
+
+.content {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content .contentLeft {
+    width: 856px;
+    margin-right: 0.1rem;
+    flex-shrink: 0;
+}
+
+.content .swiper-container {
+    width: 856px;
+}
+
+.content .banner {
+    width: 856px;
+}
+
+.content .banner img {
+    width: 856px;
+}
+
+.content .bannerBtns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin: 0.1rem 0;
+}
+
+.content .bannerBtns li {
+    margin-right: 0.04rem;
+    margin-bottom: 0.06rem;
+}
+
+.content .bannerBtns li a {
+    display: block;
+}
+
+.content .bannerBtns img {
+    display: block;
+    width: 2.1rem;
+}
+
+.content .journalism {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.2rem;
+    background-color: #fff;
+    margin-bottom: 0.1rem;
+}
+
+.content .journalism h6 {
+    line-height: 0.46rem;
+    font-size: 0.16rem;
+    border-bottom: 1px solid #90bba8;
+}
+
+.content .journalism .journalismList {
+    width: 100%;
+}
+
+.content .journalism .journalismList li {
+    width: 100%;
+    font-size: 0.14rem;
+    margin-top: 0.12rem;
+}
+
+.content .journalism .journalismList li span {
+    display: inline-block;
+    padding: 0.06rem 0.1rem;
+    text-align: center;
+    line-height: 0.18rem;
+    color: #fff;
+    background-color: #999;
+}
+
+.content .journalism .journalismList li a {
+    color: #020104;
+    font-size: 0.14rem;
+    padding-left: 0.1rem;
+}
+
+.content .journalism .journalismList li:nth-child(1) span {
+    background-color: #fd8c84;
+}
+
+.content .journalism .journalismList li:nth-child(2) span {
+    background-color: #6fc299;
+}
+
+.content .journalism .journalismList li:nth-child(3) span {
+    background-color: #81c1f2;
+}
+
+.content .infoList {
+    width: 100%;
+}
+
+.content .infoList .infoItem {
+    box-sizing: border-box;
+    padding: 0.2rem 0.15rem 0.2rem 0.2rem;
+    margin-bottom: 0.1rem;
+    background-color: #fff;
+}
+
+.content .infoList .infoItem .infoTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0.1rem 0.15rem 0;
+}
+
+.content .infoList .infoItem .infoTitle .infoLogo {
+    margin-right: 0.05rem;
+    padding: 0.02rem 0.06rem 0.04rem;
+    background-color: #d9534f;
+    color: #fff;
+    font-size: 0.14rem;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.content .infoList .infoItem .infoTitle .infoLogo::after {
+    position: absolute;
+    right: -0.04rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    content: "";
+    border-top: 0.04rem solid transparent;
+    border-bottom: 0.04rem solid transparent;
+    border-left: 0.04rem solid #d9534f;
+}
+
+.content .infoList .infoItem .infoTitle .titleText {
+    font-size: 0.2rem;
+    color: #020104;
+    word-break: break-all;
+}
+
+.content .infoList .infoItem .infoContent {
+    width: 100%;
+    display: flex;
+}
+
+.content .infoList .infoItem .infoContent .infoImg {
+    width: 2.6rem;
+    /* min-height: 1.6rem; */
+    margin-right: 0.2rem;
+}
+
+.content .infoList .infoItem .infoContent .infoText {
+    margin-bottom: 0;
+    color: #777;
+    font-size: 0.14rem;
+    line-height: 0.26rem;
+    word-wrap: break-word;
+}
+
+.content .contentRight .tips {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.content .contentRight .tips .tipsText {
+    font-size: 0.14rem;
+    color: #555555;
+}
+
+.content .contentRight .tips .tipsText span {
+    font-weight: 600;
+    font-size: 0.14rem;
+    color: #FF0000;
+}
+
+.content .contentRight .tips .tipsCity {
+    text-align: right;
+}
+
+.content .contentRight .advertisementList {
+    width: 100%;
+}
+
+.content .contentRight .advertisementList li {
+    width: 100%;
+    margin-bottom: 0.1rem;
+}
+
+.content .contentRight .advertisementList li img {
+    width: 100%;
+}
+
+.content .contentRight .labelWarp {
+    width: 100%;
+    box-sizing: border-box;
+    box-sizing: 0.2rem;
+}
+
+.content .contentRight .labelWarp .labelTitle {
+    font-size: 0.16rem;
+    line-height: 0.4rem;
+    border-bottom: 0.01rem solid #90bba8;
+}
+
+.content .contentRight .labelWarp .labelList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .contentRight .labelWarp .labelList li {
+    margin: 0 0.05rem 0.05rem 0;
+    padding: 0.02rem 0.06rem;
+    font-size: 0.14rem;
+    background-color: #6fc299;
+    cursor: pointer;
+}
+
+.paginationWarp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem 0;
+}
+
+.pagination {
+    margin: 0;
+}
+
+.pagination>li:first-child>a {
+    margin-left: 0;
+    border-top-left-radius: 0.04rem;
+    border-bottom-left-radius: 0.04rem;
+}
+
+.pagination>li:last-child>a {
+    margin-right: 0;
+    border-top-right-radius: 0.04rem;
+    border-bottom-right-radius: 0.04rem;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 0.06rem 0.12rem;
+    font-size: 0.12rem;
+    margin-left: -0.01rem;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0.01rem solid #ddd;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 0.27rem;
+    height: 0.44rem;
+    margin-top: -0.22rem;
+    z-index: 10;
+    cursor: pointer;
+    -moz-background-size: 0.27rem 0.44rem;
+    -webkit-background-size: 0.27rem 0.44rem;
+    background-size: 0.27rem 0.44rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+    left: 0.1rem;
+}
+
+.swiper-button-next {
+    right: 0.1rem;
+}

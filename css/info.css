@@ -1,0 +1,12 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.14rem;
+  position: relative;
+  background-color: #eee;
+  padding-bottom: 1rem;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

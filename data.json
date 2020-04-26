@@ -1,0 +1,207 @@
+data = {
+    //标题 
+    "title": "中国GRB币网",
+    "titleSmall": "ChinaGRB币第一资讯平台1",
+
+
+    // title 导航按钮文字  type导航按钮展示类型 0:首页 1:详情 2：其他
+    "navList": ["首页", "详情1", "详情2", "详情3"],
+
+
+    // 轮播图
+    "banner": [{
+        "img": "3KVQNF.png", // 图片名
+        "src": "www.baidu.com" // 跳转地址  为空则不跳
+    }, {
+        "img": "3KVQNF.png",
+        "src": "www.baidu.com"
+    }, {
+        "img": "3KVQNF.png",
+        "src": "www.baidu.com"
+    }],
+
+
+    // 轮播上方 文字
+    "bannerTitle": "CPB全球社群招募中…",
+
+
+    // 轮播图下广告位
+    "Advertisement": [{
+        "img": "3KVQNF.png",
+        "src": "",
+        "text": ""
+    }, {
+        "img": "3KVQNF.png",
+        "src": "https://www.baidu.com"
+    }, {
+        "img": "3KVQNF.png",
+        "src": "https://www.baidu.com"
+    }, {
+        "img": "3KVQNF.png",
+        "src": "https://www.baidu.com"
+    }],
+
+
+    "listText": "新闻推荐", // 列表文字提示
+    "listData": [{
+        "text": "中国GRB币网联合鸿运社区、红杉树部落等平台为大家派送新春祝福啦！", // 每条文字展示内容Txt
+        "src": "http://www.baidu.com" // 跳转链接
+    }, {
+        "text": "独家：GRB史上第一笔跨国商品交易花费20.7499GRB币", // 每条文字展示内容Txt
+        "src": "www.baidu.com" // 跳转链接
+    }, {
+        "text": "快讯：GRB币项目方公布了8个GRB节日重大活动，快去投票！", // 每条文字展示内容Txt
+        "src": "www.baidu.com" // 跳转链接
+    }, {
+        "text": "江苏群主郭育：GRB币易货测试交易只是价值的开始，未来生态将更繁荣（文字＋录音）", // 每条文字展示内容Txt
+        "src": "www.baidu.com" // 跳转链接
+    }, {
+        "text": "快讯：GRB币将于本月底（3月31日）前开启PC节点", // 每条文字展示内容Txt
+        "src": "www.baidu.com" // 跳转链接
+    }],
+    "tips": "防范以“虚拟货币”“区块链”名义进行非法集资的风险。关于卖家恶意申诉行为惩罚措施\n有会员反映，买家付款后，个别卖家也会恶意去申诉，反馈给技术部买家没有付款。对于此类现象， 平台将严查卖家。如果卖家确实恶意申诉，将被永久封号！特此通知。", // 右侧提示
+    "tipsCity": "– -银保监会等五部门",
+
+    "contentList": [{
+        "logoText": "GRB币快讯",
+        "title": " 1快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "content": "1",
+        "text": "111GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "GRB币快讯",
+        "title": " 2快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "GRB币快讯",
+        "title": " 3快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "GRB币快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "快讯",
+        "title": " 5快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "阿萨德沙拉酱的按时间段加速度加撒打算撒的按时ction Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "6GRB币快讯",
+        "title": " 2快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "7GRB币快讯",
+        "title": " 3快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "8GRB币快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "9快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "阿萨德沙拉酱的按时间段加速度加撒打算撒的按时ction Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "10GRB币快讯",
+        "title": " 2快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "11GRB币快讯",
+        "title": " 3快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "12i币快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "13快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "阿萨德沙拉酱的按时间段加速度加撒打算撒的按时ction Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "14GRB币快讯",
+        "title": " 2快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "15GRB币快讯",
+        "title": " 3快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "16GRB币快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "17快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "阿萨德沙拉酱的按时间段加速度加撒打算撒的按时ction Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "GRB币快讯",
+        "title": " 2快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "GRB币快讯",
+        "title": " 3快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "GRB币快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "GRB Node Update GRB Node Update For Q2 2020,GRB aims to complete the Selection Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }, {
+        "logoText": "快讯",
+        "title": " 4快讯：GRB项目方宣布超10万人申请节点并将在6月1日前公布节点和超级节点细节 ",
+        "img": "3KVQNF.png",
+        "text": "阿萨德沙拉酱的按时间段加速度加撒打算撒的按时ction Stage of GRB Testnet,as outlined in the“ Testnet Roadmap” section of the Node documentation(mineGRB.com…… "
+    }],
+    // 广告位右侧
+    "rightAdvertisement": [{
+        "img": "3KVQNF.png",
+        "src": ""
+    }, {
+        "img": "3KVQNF.png",
+        "src": "https://www.baidu.com"
+    }, {
+        "img": "3KVQNF.png",
+        "src": "https://www.baidu.com"
+    }],
+
+    // 右侧标签类型名字
+    "rightBoxTsText": "标签名字",
+
+    // 标签列表
+    "labelList": [{
+        "text": "标签1", // 标签名字
+        "src": "http://baidu.com" // 标签跳转地址
+    }, {
+        "text": "标签2",
+        "src": "http://baidu.com"
+    }, {
+        "text": "标签3",
+        "src": "http://baidu.com"
+    }, {
+        "text": "标签4",
+        "src": "http://baidu.com"
+    }, {
+        "text": "标签1555",
+        "src": "http://baidu.com"
+    }, {
+        "text": "标签121312",
+        "src": "http://baidu.com"
+    }]
+}
